@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protein Engineering · Woolley Lab</title>
+  <meta name="description" content="Engineering light-switchable proteins — PYP, LOV, and cyanobacteriochrome domains — into optogenetic tools." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark"></span>
+        <span class="brand-text">
+          <span class="brand-name">WOOLLEY LAB</span>
+          <span class="brand-sub">University of Toronto</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="protein-engineering.html">Protein Engineering</a></li>
+        <li><a href="photopharmacology.html">Photopharmacology</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html">People</a></li>
+        <li class="nav-dd">
+          <button class="nav-dd-toggle">Resources <span class="chev"></span></button>
+          <div class="nav-dd-menu">
+            <a href="crosslinkers.html">Crosslinkers</a>
+            <a href="pyp-chromophore.html">PYP Chromophore</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Research</span>
+        <h1>Light-switchable <span class="spectrum-text">protein engineering</span></h1>
+        <p>We engineer photoswitchable proteins — cyanobacteriochrome (GAF), PYP, and LOV domains — into optogenetic tools that respond to colors of light from UV to far-red.</p>
+        <div class="link-row">
+          <a class="link" href="https://www.addgene.org/Andrew_Woolley/" target="_blank" rel="noopener">Get our tools from Addgene <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:8px;">
+      <div class="container">
+
+        <!-- ===== Category: Cyanobacteriochromes (GAF) ===== -->
+        <div class="category-divider">
+          <span class="dot" style="--cat: linear-gradient(135deg, var(--green), var(--red));"></span>
+          <span class="category-label">Cyanobacteriochromes <span class="abbr">(GAF)</span></span>
+          <span class="category-line"></span>
+        </div>
+
+        <!-- GAF (Cyanobacteriochromes) — lead section -->
+        <div class="feature">
+          <div>
+            <span class="kicker">Our flagship tools</span>
+            <h3>GAF protein engineering</h3>
+            <p>GAF-only domains, or cyanobacteriochromes, offer a spectacular array of photoswitchable domains responding to all colors of light from UV to far-red. They bind bilin pigments like PCB or biliverdin.</p>
+            <p>In a phage-display collaboration with the Uppalapati lab, we discovered selective binding partners for the green, orange, red, and far-red states of these CBCRs.</p>
+          </div>
+          <figure class="feature-media media-light">
+            <img src="images/pe_image1_upscale.png" alt="Cyanobacteriochrome states and absorbance spectra" />
+            <figcaption>Green, orange, red, and far-red tools built from cyanobacteriochromes, spanning the visible spectrum.</figcaption>
+          </figure>
+        </div>
+
+        <!-- BICYCLs — subsection of Cyanobacteriochromes -->
+        <div class="feature reverse subfeature">
+          <div>
+            <span class="subfeature-tab">Cyanobacteriochromes · Featured tool</span>
+            <h4>BICYCLs — bidirectional light-inducible dimers</h4>
+            <p>BICYCLs are among the smallest optogenetic tools for controlling protein–protein interactions. Built from a single red/green cyanobacteriochrome GAF domain plus phage-display-derived binders, they come in two complementary flavours — <strong>BICYCL-Red</strong> (binds under green light, releases under red) and <strong>BICYCL-Green</strong> (the reverse) — with up to 800-fold selectivity between states.</p>
+            <p>Because they're driven by green and red light, BICYCLs multiplex cleanly with existing blue-light tools, and have been used to control protein subcellular localization and transcription in mammalian cells.</p>
+            <div class="link-row">
+              <a class="link" href="https://doi.org/10.1038/s41592-023-01764-8" target="_blank" rel="noopener">Jang et al., Nature Methods 2023 <span class="arrow">↗</span></a>
+            </div>
+          </div>
+          <figure class="feature-media media-light">
+            <img src="images/pe_green_bicycl.png" alt="BICYCL bidirectional light-inducible dimer controlling gene expression" />
+            <figcaption>A BICYCL toggling gene expression: green (525 nm) and red (660 nm) light switch binder association on and off.</figcaption>
+          </figure>
+        </div>
+
+        <!-- ===== Category: Photoactive Yellow Protein (PYP) ===== -->
+        <div class="category-divider">
+          <span class="dot" style="--cat: var(--blue);"></span>
+          <span class="category-label">Photoactive Yellow Protein <span class="abbr">(PYP)</span></span>
+          <span class="category-line"></span>
+        </div>
+
+        <!-- PYP -->
+        <div class="feature">
+          <div>
+            <span class="kicker">The PYP scaffold</span>
+            <h3>PYP engineering</h3>
+            <p>PYP changes conformation upon blue-light irradiation, allowing the design of tools like BoPD. It is a remarkably malleable protein, and we have used it as a scaffold for a wide range of light-switchable designs.</p>
+          </div>
+          <figure class="feature-media media-light">
+            <img src="images/pe_pyp_dark_vs_light.png" alt="PYP dark and light state structures" />
+            <figcaption>PYP changes conformation upon blue-light irradiation — the dark and light states differ markedly in structure.</figcaption>
+          </figure>
+        </div>
+
+        <!-- Permutants -->
+        <div class="feature reverse">
+          <div>
+            <span class="kicker">Frameshifted &amp; circular permutants</span>
+            <h3>A malleable scaffold</h3>
+            <p>PYP tolerates dramatic redesign. We have made circular permutants, versions with loop insertions, and a version with a duplicated beta strand — including "long-tail" and "big-loop" variants that remain folded and photoactive.</p>
+            <p>Duplicating a single beta strand even creates a light-switchable metamorphic protein.</p>
+          </div>
+          <figure class="feature-media media-light">
+            <img src="images/pe_denver_2020_upscale.png" alt="Long-tail and big-loop PYP variants" />
+            <figcaption>"Long-tail" and "big-loop" PYP variants tolerate insertions while remaining folded.</figcaption>
+          </figure>
+        </div>
+
+        <!-- Opto-DN-CREB -->
+        <div class="feature">
+          <div>
+            <span class="kicker">Collaboration · Karanicolas &amp; Josselyn labs</span>
+            <h3>Opto-DN-CREB</h3>
+            <p>A PYP fusion to a dominant-negative CREB. In darkness the dominant negative remains distorted and inactive, letting CREB interact with endogenous promoters. Under blue light, PYP conformational changes activate the dominant negative to inhibit CREB-mediated transcription.</p>
+            <p>Testing progressed from in vitro work to cellular studies, then to mouse models — demonstrating spatiotemporal control of fear learning through light-regulated CREB activity.</p>
+          </div>
+          <figure class="feature-media media-light">
+            <img src="images/pe_nihms_f0001.jpg" alt="Opto-DN-CREB mechanism" />
+            <figcaption>In the dark, opto-DN-CREB is inactive and CREB binds DNA; under blue light, opto-DN-CREB binds and sequesters CREB.</figcaption>
+          </figure>
+        </div>
+
+        <!-- BoPD -->
+        <div class="feature reverse">
+          <div>
+            <span class="kicker">Collaboration · Uppalapati group</span>
+            <h3>BoPD — binder of PYP dark-state</h3>
+            <p>Using phage display, we generated binders targeting both the light and dark conformations of PYP and LOV photoswitchable proteins. Phage display can generate binding partners for the different conformations of a photoswitchable protein even with no known partner and no structural information.</p>
+          </div>
+          <figure class="feature-media media-light">
+            <img src="images/pe_pypb6.jpg" alt="BoPD bound to the dark state of PYP" />
+            <figcaption>BoPD (ribbons) bound to the dark state of PYP.</figcaption>
+          </figure>
+        </div>
+
+        <!-- ===== Category: LOV domains ===== -->
+        <div class="category-divider">
+          <span class="dot" style="--cat: var(--violet);"></span>
+          <span class="category-label">LOV domains</span>
+          <span class="category-line"></span>
+        </div>
+
+        <!-- LOV -->
+        <div class="feature">
+          <div>
+            <span class="kicker">Blue-light photoswitches</span>
+            <h3>LOV protein engineering</h3>
+            <p>LOV domains serve as photoswitchable units in optogenetic tool design. A yeast-based screening system let us identify LOV-based translation-initiation inhibitors.</p>
+          </div>
+          <figure class="feature-media media-light">
+            <img src="images/pe_phage_2018.gif" alt="Opto-4EBP LOV translation-initiation system" />
+            <figcaption>A LOV–4EBP hybrid for controlling translation initiation, screened in a yeast growth assay.</figcaption>
+          </figure>
+        </div>
+
+        <div class="callout" style="margin-top:60px;">
+          <h3 style="font-size:1.3rem;">Use our tools</h3>
+          <p class="muted">Plasmids for many of these optogenetic tools are available through Addgene.</p>
+          <a class="btn btn-ghost" href="https://www.addgene.org/Andrew_Woolley/" target="_blank" rel="noopener">Woolley Lab on Addgene <span class="arrow">↗</span></a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="spectrum-rail"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand" style="margin-bottom:14px;">
+            <span class="brand-mark"></span>
+            <span class="brand-text">
+              <span class="brand-name">WOOLLEY LAB</span>
+              <span class="brand-sub">University of Toronto</span>
+            </span>
+          </div>
+          <p class="muted" style="max-width:34ch;">Designing molecules, peptides, and proteins controlled by light.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Research</h4>
+          <ul>
+            <li><a href="protein-engineering.html">Protein Engineering</a></li>
+            <li><a href="photopharmacology.html">Photopharmacology</a></li>
+            <li><a href="publications.html">Publications</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Lab</h4>
+          <ul>
+            <li><a href="people.html">People</a></li>
+            <li><a href="crosslinkers.html">Crosslinkers</a></li>
+            <li><a href="pyp-chromophore.html">PYP Chromophore</a></li>
+            <li><a href="mailto:andrew.woolley@utoronto.ca">andrew.woolley@utoronto.ca</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Woolley Lab · Department of Chemistry, University of Toronto</span>
+        <span>Light control of biological systems</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>
